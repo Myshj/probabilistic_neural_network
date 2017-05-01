@@ -12,6 +12,7 @@
         "b": [7, 5]
       }
   ],
+  "radius_of_gauss_function": 1,
   "count_of_neurons_in_image_layer": {
     "a": 2,
     "b": 2
