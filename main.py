@@ -21,7 +21,7 @@ for image in count_of_neurons_in_image_layer.keys():
         for input_neuron in range(0, len(inputs)):
             t = (weights_to_image_layer[input_neuron][image][image_neuron] - inputs[input_neuron])
             weighted_sum += math.exp(
-                -t * t / radius_of_gauss_function
+                -t * t / radius_of_gauss_function * radius_of_gauss_function
             )
         y[image].append(weighted_sum)
 
