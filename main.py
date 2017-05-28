@@ -43,3 +43,7 @@ best_result = max(theta.values())
 for k in theta.keys():
     if theta[k] == best_result:
         print(k)
+
+# сохраняем выход сети
+with open('outputs.json', 'w') as outputs_file:
+    json.dump(theta, outputs_file)

@@ -1,0 +1,8 @@
+{
+    "radius_of_gauss_function": 1,
+    "count_of_neurons_in_image_layer": {
+        "a": 2,
+        "b": 2
+    },
+    "count_of_input_neurons": 2
+}

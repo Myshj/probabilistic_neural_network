@@ -1,6 +1,6 @@
 {
   "inputs": [
-    3, 7
+    2, 1
   ],
   "weights_to_image_layer":[
       {
